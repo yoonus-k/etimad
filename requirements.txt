@@ -1,0 +1,20 @@
+flask==3.0.0
+requests==2.31.0
+python-dotenv==1.0.0
+beautifulsoup4==4.12.2
+
+# For browser automation (optional)
+selenium==4.15.0
+webdriver-manager==4.0.1
+
+# For extracting cookies from browser
+browser-cookie3==0.19.1
+
+# For HTML to PDF conversion (optional, also requires wkhtmltopdf binary)
+pdfkit==1.0.0
+
+# For HTML to PDF conversion (better alternative, no external dependencies)
+weasyprint==60.1
+
+# For handling CORS
+flask-cors==4.0.0

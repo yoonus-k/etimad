@@ -1,0 +1,60 @@
+[
+  {
+    "tenderIdStr": "NCWDuQdlQO8 5a0BdpEA1g==",
+    "groupIdStr": "48nooaAZ9yWrGcyX s2UsQ==",
+    "criterionTypeName": "التقييم الفني",
+    "criterionIdStr": "RV7w8JYPGOoIYlXtC5Kgsg==",
+    "criterionType": 1,
+    "passScore": null,
+    "weight": null,
+    "tenderId": 0,
+    "tenderStatusId": 4,
+    "offerPresentationWayId": 1,
+    "groupId": null,
+    "technicalPassingMechanismWay": true,
+    "projectComplexityDegree": null,
+    "isTechnicalOfferDetails": false,
+    "isTwoFiles": false,
+    "tenderCriteria": []
+  },
+  {
+    "tenderIdStr": "NCWDuQdlQO8 5a0BdpEA1g==",
+    "groupIdStr": "48nooaAZ9yWrGcyX s2UsQ==",
+    "criterionTypeName": "التقييم المالي",
+    "criterionIdStr": "vzHw2mii9Je83*@@**lgt ggBQ==",
+    "criterionType": 2,
+    "passScore": null,
+    "weight": null,
+    "tenderId": 0,
+    "tenderStatusId": 4,
+    "offerPresentationWayId": 1,
+    "groupId": null,
+    "technicalPassingMechanismWay": true,
+    "projectComplexityDegree": null,
+    "isTechnicalOfferDetails": false,
+    "isTwoFiles": false,
+    "tenderCriteria": [
+      {
+        "tenderCriteriaIdStr": "gqB5hm0bK2YXkPWgw4d*@@**yw==",
+        "tenderCriteriaId": 0,
+        "name": "السعر",
+        "passScore": null,
+        "evaluationScore": null,
+        "weight": null,
+        "childCriteria": [
+          {
+            "tenderCriteriaIdStr": "RumnXrKfq9PN N866 RC8g==",
+            "tenderCriteriaId": 0,
+            "name": "التكلفة الكلية",
+            "passScore": 0,
+            "evaluationScore": null,
+            "weight": 100,
+            "childCriteria": [],
+            "nodeCount": 1
+          }
+        ],
+        "nodeCount": 1
+      }
+    ]
+  }
+]

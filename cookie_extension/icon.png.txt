@@ -1,0 +1,23 @@
+ICON PLACEHOLDER
+
+The extension needs an icon.png file (128x128 pixels).
+
+OPTION 1 - Quick Method:
+1. Go to https://emojipedia.org/cookie/
+2. Right-click the cookie emoji 🍪
+3. Save image as "icon.png"
+4. Place it in this folder
+
+OPTION 2 - Favicon Generator:
+1. Visit https://favicon.io/favicon-generator/
+2. Select "Emoji" tab
+3. Choose 🍪 cookie
+4. Download and extract
+5. Rename android-chrome-512x512.png to icon.png
+6. Place it in this folder
+
+OPTION 3 - Skip It:
+The extension will work without icon.png,
+but Chrome will show a default puzzle piece icon.
+
+For now, you can use any 128x128 PNG image as icon.png!

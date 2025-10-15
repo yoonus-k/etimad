@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منافسات اعتماد - Etimad Tenders</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏛️ منافسات اعتماد</h1>
+            <p>عرض المنافسات التي لا تتطلب تصنيف</p>
+        </header>
+
+        <div class="controls">
+            <button id="updateCookiesBtn" class="btn-connect">🍪 تحديث الكوكيز</button>
+            <button id="fetchBtn" class="btn-primary">جلب المنافسات</button>
+            <button id="fetchQuickBtn" class="btn-quick">⚡ جلب سريع (10 منافسات)</button>
+            <button id="checkClassificationBtn" class="btn-check-classification" style="display: none;">🔍 فحص التصنيف وحذف المطلوب</button>
+            <span id="tenderCount" class="count-badge"></span>
+            <span id="connectionStatus" class="status-badge"></span>
+        </div>
+
+        <!-- Cookie Update Modal -->
+        <div id="cookieModal" class="cookie-modal" style="display: none;">
+            <div class="cookie-modal-content">
+                <h3>🍪 تحديث الكوكيز</h3>
+                <p style="color: #64748b; font-size: 14px; margin: 15px 0;">الصق الكوكيز من إضافة المتصفح:</p>
+                
+                <textarea 
+                    id="cookieInput" 
+                    placeholder="COOKIES = {
+    'MobileAuthCookie': 'CfDJ8...',
+    'TSPD_101': '088c...',
+    ...
+}"
+                    rows="12" 
+                    style="width: 100%; padding: 15px; border: 2px solid #e2e8f0; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 12px; direction: ltr; text-align: left; resize: vertical;"
+                ></textarea>
+                
+                <div class="cookie-modal-buttons" style="margin-top: 20px;">
+                    <button id="saveCookiesBtn" class="btn-save">💾 حفظ</button>
+                    <button id="cancelCookiesBtn" class="btn-cancel">❌ إلغاء</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="loading" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>جاري تحميل المنافسات...</p>
+        </div>
+
+        <div id="error" class="error-message" style="display: none;"></div>
+
+        <div id="tendersContainer" class="tenders-container">
+            <!-- Tenders will be displayed here -->
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etimad Cookie Extractor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 500px;
+            min-height: 400px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .container {
+            background: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 400px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h2 {
+            font-size: 20px;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            font-size: 13px;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .status {
+            min-height: 24px;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        .btn-small {
+            width: auto;
+            padding: 6px 12px;
+            font-size: 12px;
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-small:hover {
+            background: #218838;
+        }
+
+        .output {
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .output.hidden {
+            display: none;
+        }
+
+        .output-header {
+            background: #f8f9fa;
+            padding: 10px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .output pre {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            font-size: 11px;
+            max-height: 300px;
+            overflow-y: auto;
+            direction: ltr;
+            text-align: left;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+
+        .output-footer {
+            background: #f8f9fa;
+            padding: 8px 15px;
+            border-top: 1px solid #ddd;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 15px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .btn-icon {
+            font-size: 16px;
+        }
+
+        .output pre::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .output pre::-webkit-scrollbar-track {
+            background: #e9ecef;
+        }
+
+        .output pre::-webkit-scrollbar-thumb {
+            background: #667eea;
+            border-radius: 4px;
+        }
+
+        .output pre::-webkit-scrollbar-thumb:hover {
+            background: #764ba2;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .btn.loading {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+
+        .btn.loading .btn-icon {
+            animation: spin 1s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>🍪 Etimad Cookie Extractor</h2>
+            <p class="subtitle">استخراج الكوكيز لموقع اعتماد</p>
+        </div>
+
+        <div class="content">
+            <div id="status" class="status"></div>
+            
+            <button id="extractBtn" class="btn btn-primary">
+                <span class="btn-icon">🔍</span>
+                استخراج الكوكيز
+            </button>
+
+            <div id="output" class="output hidden">
+                <div class="output-header">
+                    <span>📋 الكوكيز المستخرجة</span>
+                    <button id="copyBtn" class="btn btn-small">نسخ</button>
+                </div>
+                <pre id="cookiesText"></pre>
+                <div class="output-footer">
+                    <span id="cookieCount"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>⚠️ تأكد من تسجيل الدخول إلى موقع اعتماد أولاً</p>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
