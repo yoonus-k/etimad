@@ -81,6 +81,6 @@ coverage.xml
 *.bak
 *.backup
 *~
-
+*.env*
 # download folder
 downloads/
