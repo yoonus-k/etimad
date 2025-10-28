@@ -1,0 +1,76 @@
+{
+  "total_cost": 0.1537,
+  "monthly_costs": {
+    "2025-10": 0.1537
+  },
+  "analyses": [
+    {
+      "tender_id": "e3JzSmYPH1qt3R8mGvHnew==",
+      "timestamp": "2025-10-28T17:11:34.818262",
+      "costs": {
+        "anthropic": {
+          "input_tokens": 0,
+          "output_tokens": 3000,
+          "cost": 0.045
+        },
+        "tavily": {
+          "num_searches": 0,
+          "cost": 0.0
+        },
+        "total": 0.045
+      },
+      "month": "2025-10"
+    },
+    {
+      "tender_id": "251039012008",
+      "timestamp": "2025-10-28T20:13:17.835835",
+      "costs": {
+        "anthropic": {
+          "input_tokens": 0,
+          "output_tokens": 3000,
+          "cost": 0.045
+        },
+        "tavily": {
+          "num_searches": 0,
+          "cost": 0.0
+        },
+        "total": 0.045
+      },
+      "month": "2025-10"
+    },
+    {
+      "tender_id": "251039012008",
+      "timestamp": "2025-10-28T20:34:09.208786",
+      "costs": {
+        "anthropic": {
+          "input_tokens": 0,
+          "output_tokens": 3000,
+          "cost": 0.045
+        },
+        "tavily": {
+          "num_searches": 0,
+          "cost": 0.0
+        },
+        "total": 0.045
+      },
+      "month": "2025-10"
+    },
+    {
+      "tender_id": "251039012008",
+      "timestamp": "2025-10-28T20:39:32.771367",
+      "costs": {
+        "anthropic": {
+          "input_tokens": 4538,
+          "output_tokens": 338,
+          "cost": 0.0187
+        },
+        "tavily": {
+          "num_searches": 0,
+          "cost": 0.0
+        },
+        "total": 0.0187
+      },
+      "month": "2025-10"
+    }
+  ]
+}

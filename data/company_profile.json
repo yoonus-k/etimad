@@ -1,0 +1,528 @@
+{
+  "company_name": "Digital Awareness Est.",
+  "company_name_ar": "مؤسسة الوعي الرقمي",
+  "commercial_registration": "7049315166",
+  "location": {
+    "country": "Saudi Arabia",
+    "country_ar": "المملكة العربية السعودية",
+    "city": "Riyadh",
+    "city_ar": "الرياض",
+    "district": "Umm Al-Hamam Al-Sharqi",
+    "district_ar": "حي ام الحمام الشرقي"
+  },
+  "contact": {
+    "phone": "+966535319612",
+    "email": "info@dawitsa.com",
+    "website": "https://dawitsa.com"
+  },
+  "description": {
+    "en": "Leading the future of secure technology through innovative solutions and specialized services in website and application development with the highest standards of security and digital protection. Your ideal partner in the safe digital transformation journey.",
+    "ar": "نقود مستقبل التكنولوجيا الآمنة من خلال حلول مبتكرة وخدمات متخصصة في تطوير المواقع والتطبيقات مع أعلى معايير الأمان والحماية الرقمية. شريككم المثالي في رحلة التحول الرقمي الآمن."
+  },
+  "certifications": [
+    {
+      "name": "PMP - Project Management Professional",
+      "name_ar": "إدارة المشاريع الاحترافية",
+      "issuer": "PMI - Project Management Institute",
+      "type": "Project Management"
+    },
+    {
+      "name": "Saudi Business Center Certified",
+      "name_ar": "معتمد من المركز السعودي للأعمال",
+      "issuer": "Saudi Business Center",
+      "type": "Business"
+    },
+    {
+      "name": "SADAIA Partnership",
+      "name_ar": "شراكة سداية",
+      "issuer": "SDAIA - Saudi Data & AI Authority",
+      "type": "AI & Data"
+    }
+  ],
+  "payment_systems": [
+    "SADA",
+    "mada",
+    "Mastercard",
+    "Visa",
+    "Apple Pay"
+  ],
+  "classifications": [
+    {
+      "code": "701",
+      "description": "Information Technology Services",
+      "description_ar": "خدمات تقنية المعلومات",
+      "grade": "First"
+    },
+    {
+      "code": "702",
+      "description": "Software Development",
+      "description_ar": "تطوير البرمجيات",
+      "grade": "First"
+    },
+    {
+      "code": "703",
+      "description": "Cybersecurity Services",
+      "description_ar": "خدمات الأمن السيبراني",
+      "grade": "First"
+    },
+    {
+      "code": "704",
+      "description": "AI and Digital Transformation",
+      "description_ar": "الذكاء الاصطناعي والتحول الرقمي",
+      "grade": "First"
+    }
+  ],
+  "capabilities": {
+    "web_development": {
+      "experience_years": 5,
+      "max_project_value": 10000000,
+      "specializations": [
+        "Enterprise Web Applications",
+        "E-commerce Platforms",
+        "Content Management Systems",
+        "Progressive Web Apps",
+        "API Development"
+      ],
+      "technologies": [
+        "Laravel",
+        "Vue.js",
+        "React",
+        "Next.js",
+        "Django",
+        "Python",
+        "PHP",
+        "MySQL",
+        "SQLite",
+        "REST API",
+        "Bootstrap",
+        "Livewire"
+      ]
+    },
+    "mobile_development": {
+      "experience_years": 5,
+      "max_project_value": 8000000,
+      "specializations": [
+        "iOS Applications",
+        "Android Applications",
+        "Cross-platform Apps",
+        "Real-time Applications",
+        "AI-powered Mobile Apps"
+      ],
+      "technologies": [
+        "Flutter",
+        "React Native",
+        "Firebase",
+        "WebSocket",
+        "Push Notifications",
+        "AI/ML Integration"
+      ]
+    },
+    "ai_and_ml": {
+      "experience_years": 5,
+      "max_project_value": 15000000,
+      "specializations": [
+        "Machine Learning Solutions",
+        "Natural Language Processing",
+        "Reinforcement Learning",
+        "Computer Vision",
+        "AI Image Recognition",
+        "Pattern Recognition",
+        "Sentiment Analysis",
+        "Intelligent Automation",
+        "AI-powered Trading Systems"
+      ],
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "scikit-learn",
+        "OpenAI API",
+        "Machine Learning",
+        "Deep Learning",
+        "Reinforcement Learning"
+      ],
+      "achievements": [
+        "Ultra AI Trading System: +7000% annual return, 1.22+ profit factor, 99.9% reliability"
+      ]
+    },
+    "cybersecurity": {
+      "experience_years": 5,
+      "max_project_value": 12000000,
+      "specializations": [
+        "Data Protection",
+        "Security Monitoring",
+        "Penetration Testing",
+        "Security Audits",
+        "Privacy Protection",
+        "Encryption Systems",
+        "Secure Payment Integration",
+        "Blockchain Security"
+      ],
+      "technologies": [
+        "Security Protocols",
+        "Encryption",
+        "OTP Systems",
+        "Blockchain",
+        "SSL/TLS",
+        "Firewall Configuration"
+      ]
+    },
+    "digital_transformation": {
+      "experience_years": 5,
+      "max_project_value": 20000000,
+      "specializations": [
+        "Enterprise Digital Transformation",
+        "Process Automation",
+        "Cloud Solutions",
+        "ERP Systems",
+        "Smart Contract Platforms",
+        "Digital Consulting"
+      ]
+    },
+    "ecommerce": {
+      "experience_years": 5,
+      "max_project_value": 8000000,
+      "specializations": [
+        "Online Stores",
+        "Payment Gateway Integration",
+        "Inventory Management",
+        "Order Management",
+        "AI-powered Recommendations",
+        "Multi-vendor Platforms"
+      ],
+      "technologies": [
+        "Stripe",
+        "mada",
+        "SADA",
+        "Payment Gateways",
+        "Next.js",
+        "Strapi"
+      ]
+    },
+    "cms_development": {
+      "experience_years": 5,
+      "max_project_value": 6000000,
+      "specializations": [
+        "Custom CMS Development",
+        "Content Management",
+        "Multi-language Support",
+        "SEO Optimization",
+        "User Management"
+      ]
+    }
+  },
+  "team": {
+    "project_managers": 3,
+    "senior_developers": 8,
+    "developers": 15,
+    "ui_ux_designers": 5,
+    "cybersecurity_specialists": 4,
+    "ai_ml_engineers": 6,
+    "qa_engineers": 4,
+    "support_staff": 3,
+    "total": 48
+  },
+  "past_projects": [
+    {
+      "name": "ERP Smart Invoicing System",
+      "name_ar": "نظام ERP فوترة سمارت",
+      "description": "Integrated ERP system for enterprise resource management focusing on smart invoicing, including inventory, sales, purchases, accounts, and financial reports",
+      "value": 5000000,
+      "year": 2024,
+      "client": "Saudi Enterprise",
+      "technologies": ["Laravel", "Vue.js", "MySQL", "REST API"],
+      "category": "ERP"
+    },
+    {
+      "name": "Aqdi - Smart Contracts Platform",
+      "name_ar": "عقدي - منصة العقود الذكية",
+      "description": "First smart contracts platform in Saudi Arabia for contract management with electronic signature and full compliance with Saudi regulations",
+      "value": 8000000,
+      "year": 2024,
+      "client": "Saudi Legal Tech",
+      "technologies": ["Laravel", "Livewire", "MySQL", "OTP System"],
+      "category": "Legal Tech",
+      "achievements": "First of its kind in Saudi Arabia"
+    },
+    {
+      "name": "Ultra AI - Smart Trading System",
+      "name_ar": "Ultra AI - نظام التداول الذكي",
+      "description": "Advanced trading system combining pattern recognition, sentiment analysis, and reinforcement learning for stock market predictions",
+      "value": 12000000,
+      "year": 2024,
+      "client": "Investment Firm",
+      "technologies": ["Python", "Machine Learning", "Reinforcement Learning", "SQLite"],
+      "category": "FinTech",
+      "achievements": "+7000% annual return, 1.22+ profit factor, 99.9% reliability"
+    },
+    {
+      "name": "Smart Task Management App",
+      "name_ar": "تطبيق إدارة المهام الذكي",
+      "description": "Advanced mobile app for task and project management with AI features to improve productivity",
+      "value": 3000000,
+      "year": 2024,
+      "client": "Corporate Client",
+      "technologies": ["Flutter", "Firebase", "AI/ML", "Push Notifications"],
+      "category": "Productivity"
+    },
+    {
+      "name": "Cryptocurrency Trading Platform",
+      "name_ar": "تطبيق تداول العملات الرقمية",
+      "description": "Advanced trading platform for cryptocurrencies with technical analysis tools and high security",
+      "value": 10000000,
+      "year": 2023,
+      "client": "Crypto Exchange",
+      "technologies": ["React Native", "WebSocket", "Blockchain", "Security"],
+      "category": "FinTech"
+    },
+    {
+      "name": "Hamlati - Hajj Accommodation Platform",
+      "name_ar": "حملتي - منصة حجز سكن الحج",
+      "description": "Comprehensive web and mobile platform for booking Hajj accommodation with 99.5% reliability",
+      "value": 6000000,
+      "year": 2023,
+      "client": "Hajj Services Provider",
+      "technologies": ["Django", "Vue.js", "SQLite", "API Integration"],
+      "category": "Travel & Hospitality",
+      "achievements": "99.5% uptime reliability"
+    },
+    {
+      "name": "CarSpot Live - Car Enthusiasts App",
+      "name_ar": "CarSpot Live - تطبيق عشاق السيارات",
+      "description": "Comprehensive app for car enthusiasts to discover and share rare cars on real-time interactive map with AI recognition",
+      "value": 4000000,
+      "year": 2023,
+      "client": "Automotive Community",
+      "technologies": ["Flutter", "PHP", "MySQL", "AI Image Recognition"],
+      "category": "Social & Community"
+    },
+    {
+      "name": "Howeyah - Data Protection Platform",
+      "name_ar": "هُــويَّـة - منصة حماية البيانات والخصوصية",
+      "description": "Integrated platform for data protection and privacy with internationally certified training courses",
+      "value": 7000000,
+      "year": 2023,
+      "client": "Cybersecurity Training Provider",
+      "technologies": ["Laravel", "Bootstrap", "MySQL", "Payment Gateway"],
+      "category": "Education & Cybersecurity"
+    },
+    {
+      "name": "Advanced E-commerce Platform",
+      "name_ar": "منصة التجارة الإلكترونية المتقدمة",
+      "description": "Advanced online store with AI-powered product recommendations and multiple payment methods",
+      "value": 5500000,
+      "year": 2023,
+      "client": "Retail Company",
+      "technologies": ["Next.js", "Strapi", "Stripe", "AI Recommendations"],
+      "category": "E-commerce"
+    }
+  ],
+  "pricing_strategy": {
+    "profit_margin_min": 0.15,
+    "profit_margin_target": 0.25,
+    "profit_margin_max": 0.35,
+    "overhead_percentage": 0.18,
+    "contingency_percentage": 0.10,
+    "notes": {
+      "en": "Pricing varies based on project complexity, timeline, and technology requirements. AI and cybersecurity projects may have higher margins due to specialized expertise.",
+      "ar": "تختلف الأسعار حسب تعقيد المشروع والجدول الزمني ومتطلبات التكنولوجيا. قد تكون هوامش الربح أعلى لمشاريع الذكاء الاصطناعي والأمن السيبراني بسبب الخبرة المتخصصة."
+    }
+  },
+  "preferences": {
+    "min_tender_value": 200000,
+    "max_tender_value": 20000000,
+    "preferred_sectors": [
+      "Technology",
+      "IT Services",
+      "Digital Transformation",
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "E-commerce",
+      "FinTech",
+      "E-government",
+      "Healthcare IT",
+      "Education Technology"
+    ],
+    "preferred_regions": [
+      "Riyadh",
+      "Jeddah",
+      "Dammam",
+      "Khobar",
+      "Mecca",
+      "Medina",
+      "All Saudi Arabia"
+    ],
+    "preferred_technologies": [
+      "AI/ML",
+      "Blockchain",
+      "Cloud Computing",
+      "Mobile Development",
+      "Web Development",
+      "Cybersecurity",
+      "IoT",
+      "Big Data"
+    ],
+    "avoid_keywords": [
+      "hazardous materials",
+      "military weapons",
+      "international travel required",
+      "construction only",
+      "manufacturing only"
+    ]
+  },
+  "competitive_advantages": [
+    {
+      "advantage": "PMP Certified with 5+ years experience",
+      "advantage_ar": "معتمدون PMP مع أكثر من 5 سنوات خبرة",
+      "description": "Professional project management certification ensuring timely delivery and quality standards"
+    },
+    {
+      "advantage": "AI and Digital Transformation Expertise",
+      "advantage_ar": "خبرة في الذكاء الاصطناعي والتحول الرقمي",
+      "description": "Extensive experience in AI solutions and digital transformation with proven innovative solutions"
+    },
+    {
+      "advantage": "Advanced Security and Protection",
+      "advantage_ar": "أمان وحماية متقدمة",
+      "description": "Highest international security standards with latest protection protocols and encryption"
+    },
+    {
+      "advantage": "24/7 Technical Support",
+      "advantage_ar": "دعم فني متميز على مدار الساعة",
+      "description": "Continuous technical support with specialized experts for optimal performance"
+    },
+    {
+      "advantage": "Modern and Attractive Design",
+      "advantage_ar": "تصميم عصري وجذاب",
+      "description": "Contemporary designs following latest global trends with excellent user experience"
+    },
+    {
+      "advantage": "Proven Track Record",
+      "advantage_ar": "سجل حافل بالمشاريع الناجحة",
+      "description": "Multiple successful projects including first smart contracts platform in Saudi Arabia and AI trading system with +7000% returns"
+    }
+  ],
+  "service_offerings": [
+    {
+      "service": "Website Development",
+      "service_ar": "تطوير المواقع الإلكترونية",
+      "description": "Professional and responsive websites with latest technologies and highest security standards"
+    },
+    {
+      "service": "Mobile Applications",
+      "service_ar": "تطبيقات الهواتف الذكية",
+      "description": "Innovative and secure mobile apps for iOS and Android with advanced features"
+    },
+    {
+      "service": "E-commerce Stores",
+      "service_ar": "المتاجر الإلكترونية",
+      "description": "Complete online stores with secure payment systems and advanced management"
+    },
+    {
+      "service": "Digital Security",
+      "service_ar": "الأمان الرقمي",
+      "description": "Comprehensive digital security including data protection, monitoring, and penetration testing"
+    },
+    {
+      "service": "Content Management Systems",
+      "service_ar": "أنظمة إدارة المحتوى",
+      "description": "Custom and user-friendly CMS for efficient and secure content management"
+    },
+    {
+      "service": "AI and Digital Transformation",
+      "service_ar": "الذكاء الاصطناعي والتحول الرقمي",
+      "description": "Advanced AI solutions including machine learning, NLP, and intelligent automation"
+    }
+  ],
+  "project_methodology": [
+    {
+      "phase": 1,
+      "name": "Analysis and Study",
+      "name_ar": "دراسة المشروع والتحليل",
+      "description": "Understanding requirements and objectives with detailed technical and security analysis"
+    },
+    {
+      "phase": 2,
+      "name": "Design and Prototyping",
+      "name_ar": "التصميم والنماذج الأولية",
+      "description": "UI/UX design and project structure with interactive prototypes"
+    },
+    {
+      "phase": 3,
+      "name": "Development and Programming",
+      "name_ar": "التطوير والبرمجة",
+      "description": "Professional development using latest technologies and best practices"
+    },
+    {
+      "phase": 4,
+      "name": "Testing and Quality Assurance",
+      "name_ar": "الاختبار وضمان الجودة",
+      "description": "Comprehensive testing for functionality and security"
+    },
+    {
+      "phase": 5,
+      "name": "Deployment and Launch",
+      "name_ar": "النشر والإطلاق",
+      "description": "Server deployment with security and technical configurations"
+    },
+    {
+      "phase": 6,
+      "name": "Support and Maintenance",
+      "name_ar": "الدعم والصيانة",
+      "description": "Continuous technical support with regular security updates"
+    }
+  ],
+  "cost_estimation_factors": {
+    "development_hourly_rate_range": {
+      "junior": 150,
+      "mid": 250,
+      "senior": 400,
+      "expert": 600,
+      "currency": "SAR"
+    },
+    "average_team_composition": {
+      "small_project": {
+        "developers": 2,
+        "designers": 1,
+        "pm": 0.5,
+        "qa": 1
+      },
+      "medium_project": {
+        "developers": 4,
+        "designers": 2,
+        "pm": 1,
+        "qa": 2,
+        "security": 1
+      },
+      "large_project": {
+        "developers": 8,
+        "designers": 3,
+        "pm": 2,
+        "qa": 3,
+        "security": 2,
+        "ai_specialists": 2
+      }
+    },
+    "technology_multipliers": {
+      "standard_web": 1.0,
+      "mobile_app": 1.2,
+      "ai_ml": 1.8,
+      "blockchain": 1.7,
+      "cybersecurity": 1.6,
+      "erp_system": 1.5
+    }
+  },
+  "success_metrics": {
+    "project_success_rate": "99%",
+    "client_satisfaction": "98%",
+    "on_time_delivery": "95%",
+    "average_uptime": "99.5%",
+    "total_projects_completed": 50,
+    "years_in_business": 5
+  },
+  "updated_date": "2025-10-27",
+  "notes": {
+    "en": "This profile is configured for AI tender analysis. Update regularly with new projects, certifications, and capabilities.",
+    "ar": "تم تكوين هذا الملف للتحليل الذكي للمناقصات. يرجى التحديث بانتظام مع المشاريع الجديدة والشهادات والقدرات."
+  }
+}
