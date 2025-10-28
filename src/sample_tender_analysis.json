@@ -1,0 +1,217 @@
+{
+  "executive_summary": {
+    "arabic": {
+      "tender_name": "مشروع تطوير نظام إدارة الموارد البشرية",
+      "reference_number": "1234567890",
+      "issuing_organization": "وزارة الموارد البشرية والتنمية الاجتماعية",
+      "submission_deadline": "2025-11-30",
+      "description": "مشروع لتطوير نظام متكامل لإدارة الموارد البشرية يدعم اللغتين العربية والإنجليزية مع قاعدة بيانات آمنة وواجهة مستخدم حديثة. النظام يتطلب التكامل مع أنظمة الحكومة الإلكترونية ويهدف لتحسين كفاءة إدارة الموارد البشرية في الوزارة."
+    },
+    "english": {
+      "tender_name": "Human Resources Management System Development Project",
+      "reference_number": "1234567890",
+      "issuing_organization": "Ministry of Human Resources and Social Development",
+      "submission_deadline": "2025-11-30",
+      "description": "A project to develop an integrated human resources management system supporting Arabic and English languages with secure database and modern user interface. The system requires integration with e-government systems and aims to improve HR management efficiency in the ministry."
+    }
+  },
+  "key_information": {
+    "estimated_budget": {
+      "amount": 5000000,
+      "currency": "SAR",
+      "formatted": "5,000,000 ريال سعودي"
+    },
+    "project_duration": {
+      "months": 12,
+      "arabic": "12 شهراً",
+      "english": "12 months"
+    },
+    "main_deliverables": {
+      "arabic": [
+        "نظام إدارة موارد بشرية متكامل",
+        "قاعدة بيانات آمنة ومشفرة",
+        "واجهة مستخدم ثنائية اللغة",
+        "تكامل مع أنظمة الحكومة الإلكترونية",
+        "دعم فني وصيانة"
+      ],
+      "english": [
+        "Integrated HR management system",
+        "Secure and encrypted database",
+        "Bilingual user interface",
+        "Integration with e-government systems",
+        "Technical support and maintenance"
+      ]
+    },
+    "key_requirements": {
+      "arabic": [
+        "دعم اللغتين العربية والإنجليزية",
+        "أمان وتشفير البيانات",
+        "واجهة مستخدم حديثة وسهلة",
+        "التكامل مع الأنظمة الحكومية"
+      ],
+      "english": [
+        "Arabic and English language support",
+        "Data security and encryption",
+        "Modern and user-friendly interface",
+        "Government systems integration"
+      ]
+    }
+  },
+  "technical_requirements": {
+    "main_technical_requirements": {
+      "arabic": [
+        "تطوير نظام متكامل لإدارة الموارد البشرية",
+        "دعم اللغتين العربية والإنجليزية",
+        "قاعدة بيانات آمنة ومشفرة",
+        "واجهة مستخدم سهلة وحديثة",
+        "تكامل مع أنظمة الحكومة الإلكترونية"
+      ],
+      "english": [
+        "Develop integrated HR management system",
+        "Support Arabic and English languages",
+        "Secure and encrypted database",
+        "Easy and modern user interface",
+        "Integration with e-government systems"
+      ]
+    },
+    "required_certifications": {
+      "arabic": [
+        "شهادة ISO 27001"
+      ],
+      "english": [
+        "ISO 27001 certification"
+      ]
+    },
+    "required_classifications": {
+      "code": "701",
+      "arabic": "خدمات تقنية المعلومات",
+      "english": "Information Technology Services"
+    },
+    "experience_requirement": {
+      "years": 5,
+      "arabic": "خبرة لا تقل عن 5 سنوات",
+      "english": "Minimum 5 years experience"
+    },
+    "quality_standards": [
+      "ISO 27001"
+    ]
+  },
+  "initial_fit_assessment": {
+    "capability_match": {
+      "status": "EXCELLENT",
+      "arabic": "ممتاز - تتطابق قدرات الشركة بشكل كامل مع متطلبات المشروع",
+      "english": "Excellent - Company capabilities fully match project requirements",
+      "details": {
+        "arabic": [
+          "لدينا التصنيف المطلوب 701 بدرجة أولى",
+          "خبرة 5 سنوات في تطوير الويب والأنظمة",
+          "فريق متخصص في الأمن السيبراني",
+          "خبرة في مشاريع مماثلة بقيمة تصل إلى 10 مليون ريال"
+        ],
+        "english": [
+          "We have required classification 701 Grade First",
+          "5 years experience in web development and systems",
+          "Specialized cybersecurity team",
+          "Experience in similar projects up to SAR 10M"
+        ]
+      }
+    },
+    "main_challenges": {
+      "arabic": [
+        "الحاجة للحصول على شهادة ISO 27001",
+        "ضرورة التكامل مع أنظمة الحكومة الإلكترونية",
+        "ضمان الأمان والتشفير للبيانات الحساسة",
+        "إدارة مشروع بحجم 5 مليون ريال لمدة 12 شهر"
+      ],
+      "english": [
+        "Need to obtain ISO 27001 certification",
+        "Required integration with e-government systems",
+        "Ensuring security and encryption for sensitive data",
+        "Managing SAR 5M project over 12 months"
+      ]
+    },
+    "required_team": {
+      "size": "15-20 professionals",
+      "composition": {
+        "arabic": [
+          "مدير مشروع معتمد PMP (1)",
+          "مطورين أول (3-4)",
+          "مطورين (6-8)",
+          "مصممي واجهات (2-3)",
+          "متخصصي أمن سيبراني (2)",
+          "محلل أنظمة (1)"
+        ],
+        "english": [
+          "PMP Certified Project Manager (1)",
+          "Senior Developers (3-4)",
+          "Developers (6-8)",
+          "UI/UX Designers (2-3)",
+          "Cybersecurity Specialists (2)",
+          "Systems Analyst (1)"
+        ]
+      }
+    },
+    "estimated_complexity": {
+      "level": "MEDIUM-HIGH",
+      "arabic": "متوسط إلى عالي",
+      "english": "Medium to High",
+      "reasoning": {
+        "arabic": "المشروع يتطلب خبرة تقنية عالية في الأمان والتكامل مع الأنظمة الحكومية",
+        "english": "Project requires high technical expertise in security and government systems integration"
+      }
+    }
+  },
+  "quick_recommendation": {
+    "decision": "YES",
+    "priority_level": "HIGH",
+    "arabic": {
+      "decision": "نعم - يُنصح بالمشاركة",
+      "priority": "أولوية عالية",
+      "key_reasons": [
+        "تطابق كامل مع قدرات وتصنيفات الشركة",
+        "قيمة المشروع ضمن نطاق خبرتنا (5 مليون ريال)",
+        "لدينا الفريق والخبرة المطلوبة",
+        "مشروع حكومي مرموق مع وزارة مهمة",
+        "فرصة لتعزيز سمعة الشركة في القطاع الحكومي"
+      ]
+    },
+    "english": {
+      "decision": "Yes - Recommended to pursue",
+      "priority": "High Priority",
+      "key_reasons": [
+        "Perfect match with company capabilities and classifications",
+        "Project value within our experience range (SAR 5M)",
+        "We have the required team and expertise",
+        "Prestigious government project with important ministry",
+        "Opportunity to enhance company reputation in government sector"
+      ]
+    },
+    "success_probability": {
+      "percentage": 75,
+      "arabic": "احتمالية النجاح: 75%",
+      "english": "Success Probability: 75%"
+    },
+    "next_steps": {
+      "arabic": [
+        "البدء في إجراءات الحصول على شهادة ISO 27001",
+        "تحضير الفريق المطلوب للمشروع",
+        "دراسة متطلبات التكامل مع الأنظمة الحكومية",
+        "إعداد العرض الفني والمالي",
+        "مراجعة المشاريع السابقة المماثلة"
+      ],
+      "english": [
+        "Start ISO 27001 certification process",
+        "Prepare required project team",
+        "Study government systems integration requirements",
+        "Prepare technical and financial proposal",
+        "Review similar previous projects"
+      ]
+    }
+  },
+  "_metadata": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2025-10-27T21:16:11.341466",
+    "tokens_used": 3759,
+    "cost_estimate_usd": 0.0425
+  }
+}

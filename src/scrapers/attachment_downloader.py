@@ -12,8 +12,9 @@ import urllib.parse
 from pathlib import Path
 
 # Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
+# Import from root config.py (not src.config package)
 from config import COOKIES
 
 class TenderAttachmentDownloader:

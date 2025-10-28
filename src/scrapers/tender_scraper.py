@@ -59,6 +59,18 @@ class TenderScraper:
             print(f"Status Code: {response.status_code}")
             
             if response.status_code == 200:
+                # Check if response is HTML (login page) or JSON
+                content_type = response.headers.get('Content-Type', '').lower()
+                
+                if 'text/html' in content_type or response.text.strip().startswith('<!DOCTYPE') or response.text.strip().startswith('<html'):
+                    print(f"✗ Page {page_number}: Received HTML instead of JSON - Authentication required")
+                    print(f"   Response starts with: {response.text[:100]}")
+                    print(f"\n⚠️  Your cookies have expired! Please update them:")
+                    print(f"   1. Click '🍪 تحديث الكوكيز' button in the UI")
+                    print(f"   2. Paste fresh cookies from the browser extension")
+                    print(f"   3. Try fetching tenders again\n")
+                    return [], 0
+                
                 try:
                     data = response.json()
                     tenders = data.get('data', [])
@@ -67,7 +79,9 @@ class TenderScraper:
                     return tenders, total_count
                 except json.JSONDecodeError as je:
                     print(f"✗ JSON Error on page {page_number}: {je}")
-                    print(f"Response preview: {response.text[:500]}")
+                    print(f"   Response type: {content_type}")
+                    print(f"   Response preview: {response.text[:500]}")
+                    print(f"\n⚠️  Response is not valid JSON. Cookies may be expired.")
                     return [], 0
             elif response.status_code == 302:
                 print(f"✗ Page {page_number}: Redirect detected - Authentication required")
